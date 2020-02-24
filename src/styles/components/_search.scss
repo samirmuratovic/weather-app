@@ -1,0 +1,31 @@
+.search {
+  width: 100%;
+}
+
+.search__form {
+  display: flex;
+}
+
+.search__box {
+  background: $dk-grey;
+  border: none;
+  color: $md-grey;
+  flex-grow: 1;
+  height: 50px;
+  margin-right: 20px;
+  padding: 14px 0 14px 20px;
+}
+
+.search__box:focus {
+  outline: none;
+}
+
+.btn {
+  background: $purple;
+  border: none;
+  color: $white;
+  cursor: pointer;
+  height: 50px;
+  outline: none;
+  width: 110px;
+}

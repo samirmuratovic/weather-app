@@ -1,0 +1,25 @@
+.weather-info-wrapper {
+  margin-top: 130px;
+  padding: 0;
+  width: 100%;
+}
+
+.main-info-wrapper {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.main-info-title-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondary-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  width: 100%;
+}
